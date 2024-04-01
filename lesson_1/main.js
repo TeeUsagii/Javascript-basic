@@ -1,24 +1,30 @@
-// alert('Hi Javascript basic')
+/**
+ * 1 so ham Buil-in function
+ * 1. Alert
+ * 2. Console
+ * 3. Confirm
+ * 4. Prompt
+ * 5. Set timeout
+ * 6. Set interval
+ */
 
-// Khai bao ten, tuoi
-var fullName = 'Kaneki Ken';
-var age = 26;
 
-// Goi ham thong bao
-alert(fullName);
-alert(age);
+var fullName = 'Kaneki Ken'
 
-//Comment dung de ghi chu
-//Comment dung de vo hieu hoa ma
+// console.log(fullName) //in ra bien trong console 
+// console.warn(fullName) //in ra bien canh bao trong console 
 
-//Co hai loai comment
-/*
+// confirm('Xac nhan la kieu anh hay k');
 
-- Comment 1 dong 
-- Comment nhieu dong
+// prompt('Xac nhan la kieu anh hay k');
 
-*/
 
-/** 
- * Cai nay dung /** la se tu dong goi y
-*/
+//1 lan
+// setTimeout(function() {
+//     alert('Kieu anh')
+// }, 1000)
+
+//lien tuc theo thoi gian
+setInterval(function() {
+    console.log(fullName + Math.random())
+}, 1000)
