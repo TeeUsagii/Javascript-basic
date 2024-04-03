@@ -11,5 +11,5 @@ console.log(a == b);// true, so sánh value
 console.log(a === b);// false, so sánh value, datatype
 
 console.log(a != b);// false, so sánh value
-console.log(a !== b);// false, so sánh value, datatype
+console.log(a !== b);// true, so sánh value, datatype
 
