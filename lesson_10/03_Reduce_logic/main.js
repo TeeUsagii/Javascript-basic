@@ -13,7 +13,7 @@ Array.prototype.reduce2 = function (callback, result) {
 }
 
 const numbers = [1, 2, 3, 4, 5]
-
+a
 const result = numbers.reduce2((total, number, index, arrray) => {
   console.log(total, number, index, arrray)
   return total + number
