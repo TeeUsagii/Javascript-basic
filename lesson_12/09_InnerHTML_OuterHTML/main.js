@@ -19,22 +19,22 @@
 
 var courses = ['HTML & CSS', 'Javascript', 'PHP', 'Java']
 
-function render(courses) {
-    var chatLu = document.querySelector('ul');
-    var leng = courses.length;
-    for (var i = 0; i < leng; i++) {
-        chatLu.innerHTML += `<li>${courses[i]}</li>`;
-    }
-}
+// function render(courses) {
+//     var chatLu = document.querySelector('ul');
+//     var leng = courses.length;
+//     for (var i = 0; i < leng; i++) {
+//         chatLu.innerHTML += `<li>${courses[i]}</li>`;
+//     }
+// }
 
-render(courses)
+// render(courses)
 
 function render2(courses) {
     var chatLu = document.querySelector('ul');
-    var leng = courses.length;
     var chatVai = courses.map(function(course) {
-        return "<li>courses</li>"
-    });
+        return `<li>${course}</li>`
+    }).join('');
+    chatLu.innerHTML = chatVai;
 }
 
-render(courses)
+render2(courses);
