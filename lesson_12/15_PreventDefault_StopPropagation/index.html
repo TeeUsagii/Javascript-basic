@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PreventDefault and StopPropagation</title>
+    <style>
+        ul {
+            display: none;
+        }
+
+        input:focus ~ ul {
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body>
+    <a name="" href="https://f8.edu.vn">
+        Học lập trình
+    </a>
+    <br>
+    <a name="" href="https://google.com.vn">
+        Tìm kiếm
+    </a>
+    <br>
+
+
+    <input type="text" placeholder="Tìm kiếm">
+    <ul>
+        <li>Javascript</li>
+        <li>PHP</li>
+        <li>GOLANG</li>
+    </ul>
+
+    <br>
+
+    <div>
+        div
+        <button>Click me</button>
+
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
