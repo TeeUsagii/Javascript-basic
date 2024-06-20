@@ -1,9 +1,14 @@
 {
-    "courses": [
-        {
-            "id": 1,
-            "name": "Kiến thức cho bạn",
-            "description": "Kiến thức cơ bản cho kiều anh"
-        }
-    ]
+  "courses": [
+    {
+      "id": 1,
+      "name": "Kiến thức cho bạn",
+      "description": "Kiến thức cơ bản cho kiều anh"
+    },
+    {
+      "name": "Nodejs and Reactjs",
+      "description": "Course",
+      "id": 2
+    }
+  ]
 }
