@@ -2,13 +2,18 @@
   "courses": [
     {
       "id": 1,
-      "name": "Kiến thức cho bạn",
-      "description": "Kiến thức cơ bản cho kiều anh"
+      "name": "Khóa học làm giàu",
+      "description": "Kiến thức cơ bản cho làm giàu"
     },
     {
-      "name": "Nodejs and Reactjs",
-      "description": "Course",
+      "name": "Lập Trình JavaScript Cơ Bản",
+      "description": "Học lập Trình JavaScript Cơ Bản",
       "id": 2
+    },
+    {
+      "name": "Lập trình C++ cơ bản, nâng cao\n",
+      "description": "Khóa học lập trình C++ từ cơ bản tới nâng cao dành cho người mới bắt đầu. Mục tiêu của khóa học này nhằm giúp các bạn nắm được các khái niệm căn cơ của lập trình, giúp các bạn có nền tảng vững chắc để chinh phục con đường trở thành một lập trình viên.",
+      "id": 3
     }
   ]
 }
